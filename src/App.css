@@ -1,0 +1,37 @@
+/* 调整Radio单选框和内容间的间距 */
+.am-radio {
+  margin-right: 5px;
+}
+
+/* 调整NavBar标题的样式 */
+.am-navbar-title {
+  letter-spacing: 0.1rem;
+}
+
+/* 调整GridItem文本颜色 */
+.am-grid-text {
+  color: #999 !important;
+}
+
+/* 调整TabBar到底部 */
+.am-tab-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: inherit;
+  z-index: 99;
+}
+
+/* 调整标题始终在顶部 */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+/* 中间容器的样式 */
+.nav-container {
+  margin-top: 45px;
+  margin-bottom: 59px;
+}

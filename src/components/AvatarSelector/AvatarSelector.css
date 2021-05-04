@@ -1,0 +1,8 @@
+/* 跳转List标题样式 */
+.am-list-header > div {
+  display: flex;
+  align-items: center;
+}
+.am-list-header > div > img {
+  margin-left: 10px;
+}
