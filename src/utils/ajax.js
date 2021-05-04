@@ -3,7 +3,7 @@ import qs from 'qs'
 import { getUserId } from './cookie'
 
 // 服务器网址
-axios.defaults.baseURL = '/api/private/v1/'
+axios.defaults.baseURL = 'http://127.0.0.1:4000/api/private/v1/'
 // 配置请求头
 axios.defaults.headers = {
   'Content-Type': 'application/x-www-form-urlencoded'
